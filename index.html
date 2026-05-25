@@ -11,15 +11,18 @@
     <meta property="og:description" content="$CLAW is a community-driven token on Solana. Built for the future." />
     <meta property="og:url" content="https://claw.thealpha-secret.xyz/" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://claw.thealpha-secret.xyz/img/claw-logo.svg" />
+    <meta property="og:image" content="https://claw.thealpha-secret.xyz/img/coin.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <style>
         * { margin:0; padding:0; box-sizing:border-box; }
         body { font-family: system-ui,-apple-system,'Segoe UI',sans-serif; background:#0d0d0d; color:#e0dcc7; line-height:1.7; }
         .container { max-width:800px; margin:0 auto; padding:40px 24px; }
 
-        .hero { text-align:center; padding:80px 0 40px; }
-        .hero img { width:200px; height:200px; margin-bottom:24px; }
+        .hero { text-align:center; padding:60px 0 30px; }
+        .hero .coin-wrapper { display:inline-block; position:relative; margin-bottom:24px; }
+        .hero .coin-wrapper::before { content:''; position:absolute; inset:-20px; background:radial-gradient(circle, rgba(212,168,67,0.3) 0%, transparent 70%); border-radius:50%; animation:pulse 3s ease-in-out infinite; }
+        @keyframes pulse { 0%,100% { transform:scale(1); opacity:0.5; } 50% { transform:scale(1.1); opacity:1; } }
+        .hero img { width:260px; height:260px; border-radius:50%; position:relative; z-index:1; filter:drop-shadow(0 0 30px rgba(212,168,67,0.4)); }
         .hero h1 { font-size:3rem; color:#d4a843; font-weight:800; letter-spacing:4px; }
         .hero .tagline { color:#8a886e; font-size:1.1rem; margin-top:12px; }
         .hero .price { font-size:1.5rem; color:#c084fc; margin-top:16px; }
@@ -54,12 +57,12 @@
 <body>
     <div class="container">
         <div class="hero">
-            <img src="img/claw-logo.svg" alt="$CLAW" />
+            <img src="img/coin.png" alt="$CLAW" />
             <h1>$CLAW</h1>
             <p class="tagline">The Decentralized Intelligence Token</p>
             <p class="price">—</p>
             <div style="margin-top:24px;">
-                <a href="https://pump.fun/coin/TOKEN_ADDRESS" class="btn" target="_blank">Buy on Pump.fun</a>
+                <a href="https://pump.fun/coin/EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29" class="btn" target="_blank">Buy on Pump.fun</a>
                 <a href="#info" class="btn btn-outline">Learn More</a>
             </div>
         </div>
@@ -102,7 +105,7 @@
                 <div class="info-card">
                     <h3>Token Mint</h3>
                     <p>Contract address</p>
-                    <code>TBD — launching soon</code>
+                    <code>EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29</code>
                 </div>
                 <div class="info-card">
                     <h3>Total Supply</h3>
@@ -119,7 +122,7 @@
 
         <div class="cta">
             <p>The bonding curve is live. Join the network.</p>
-            <a href="https://pump.fun/coin/TOKEN_ADDRESS" class="btn" target="_blank">Buy $CLAW →</a>
+            <a href="https://pump.fun/coin/EPgApqMEKvKJ5deGFWZb2cPEjyyyuxicNcXuoPXVqy29" class="btn" target="_blank">Buy $CLAW →</a>
         </div>
 
         <footer>
