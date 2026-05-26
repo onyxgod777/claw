@@ -45,6 +45,8 @@
         .info-card p { color:#8a886e; font-size:0.9rem; }
         .info-card code { display:block; color:#d4a843; font-size:0.8rem; word-break:break-all; margin-top:8px; background:#0d0d0d; padding:8px 12px; border-radius:6px; }
 
+        .chart-wrap { border:1px solid #2a2a3e; border-radius:12px; overflow:hidden; background:#0d0d0d; }
+        .chart-wrap iframe { width:100%; height:460px; border:none; display:block; }
         .cta { text-align:center; padding:48px 0; }
         .cta p { color:#8a886e; margin-bottom:20px; }
 
@@ -83,6 +85,16 @@
             <div class="stat-card">
                 <div class="num">—</div>
                 <div class="label">Bonding Curve</div>
+            </div>
+        </div>
+
+        <div class="section" id="chart">
+            <h2>📈 Price Chart</h2>
+            <div class="chart-wrap">
+                <iframe src="https://dexscreener.com/solana/4ffZRBB4SgmB9xpGq56r9rnKe4bBt9ktNxUR6FRrW2yo?embed=1&theme=dark"
+                    allow="clipboard-write"
+                    loading="lazy">
+                </iframe>
             </div>
         </div>
 
